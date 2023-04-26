@@ -1,9 +1,4 @@
 <?php
-/**
-* Simple PHP CRUD Script
-* Developed by TutorialsClass.com
-* URL:  http://tutorialsclass.com/code/php-simple-crud-application
-**/
 
 // Create database connection using config file
 include_once("config.php");
