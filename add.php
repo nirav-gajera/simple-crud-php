@@ -2,7 +2,6 @@
 <head>
 	<title>Add Users</title>
 </head>
-
 <body>
 	<a href="index.php">Go to Home</a>
 	<br/><br/>
