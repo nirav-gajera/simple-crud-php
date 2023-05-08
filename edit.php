@@ -6,7 +6,6 @@ include_once("config.php");
 if(isset($_POST['update']))
 {	
 	$id = $_POST['id'];
-	
 	$name=$_POST['name'];
 	$mobile=$_POST['mobile'];
 	$email=$_POST['email'];
