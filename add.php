@@ -35,7 +35,7 @@
 		$email = $_POST['email'];
 		$mobile = $_POST['mobile'];
 		
-		// include database connection file
+		// include database connection
 		include_once("config.php");
 				
 		// Insert user data into table
