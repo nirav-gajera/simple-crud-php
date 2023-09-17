@@ -9,13 +9,13 @@ $result = mysqli_query($mysqli, "SELECT * FROM users ORDER BY id DESC");
 
 <html>
 <head>    
-    <title>Homepage</title>
+    <title>CRUD | Homepage</title>
 </head>
 
 <body>
 <a href="add.php">Add New User</a><br/><br/>
 
-    <table width='80%' border=1>
+    <table width='80%' border=1 style="font-family: "Lucida Console", Courier, monospace;">
 
     <tr>
         <th>Name</th> 
