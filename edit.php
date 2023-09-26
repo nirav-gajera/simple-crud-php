@@ -1,5 +1,5 @@
 <?php
-// include_once database connection file
+// include_once db connection file
 include_once("config.php");
 
 // Check if form is submitted for user update, then redirect to homepage after update
@@ -34,12 +34,11 @@ while($user_data = mysqli_fetch_array($result))
 ?>
 <html>
 <head>	
-	<title>Edit User Data</title>
+	<title> Edit User Data </title>
 </head>
 
 <body>
-	<a href="index.php">Home</a>
-	<br/><br/>
+	<a href="index.php">Home</a> <br/><br/>
 	
 	<form name="update_user" method="post" action="edit.php">
 		<table border="0">
